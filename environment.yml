@@ -1,11 +1,12 @@
 name: kelpwatch-debug
 dependencies:
+- pip
+- matplotlib-base
+- numpy
+- pandas
+- geopandas
 - pip:
-  - geopandas
   - ipywidgets
   - lonboard
-  - matplotlib-base
-  - numpy
-  - pandas
   - pyarrow
   - geoarrow-rust-core
