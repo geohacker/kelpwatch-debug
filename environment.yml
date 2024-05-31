@@ -1,13 +1,11 @@
 name: kelpwatch-debug
-channels:
- - conda-forge
- - nodefaults
 dependencies:
- - geopandas
- - ipywidgets
- - lonboard
- - matplotlib-base
- - numpy
- - pandas
- - pyarrow
- - geoarrow-rust-core
+- pip:
+  - geopandas
+  - ipywidgets
+  - lonboard
+  - matplotlib-base
+  - numpy
+  - pandas
+  - pyarrow
+  - geoarrow-rust-core
